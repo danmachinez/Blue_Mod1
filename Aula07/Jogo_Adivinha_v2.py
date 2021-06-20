@@ -8,7 +8,6 @@ print('Dessa vez vou te ajudar até você acertar, vamos lá!')
 numComputador = randint(1, 10)
 total_Palpites = 1
 palpite = 0
-print(numComputador)
 
 while palpite != numComputador:
     palpite = int(input('Diga um número entre 0 e 10: '))
